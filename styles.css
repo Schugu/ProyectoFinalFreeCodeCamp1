@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: sans-serif;
+    font-size: 1.25rem;
+    scroll-behavior: smooth;
+}
+
+/* FONDO */
+body {
+    background-image: url(https://www.altonivel.com.mx/wp-content/uploads/2021/07/fogata.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* FORMULARIO */
+main {
+    width: 43.75rem;
+    height: auto;
+    margin: 1.25rem auto;
+    border: 0.063rem solid black;
+    background-color: rgba(10, 10, 35, 0.75);
+    color: #ffffff;
+    padding: 1.25rem 1.5rem 1.25rem 1.25rem ;
+    max-width: 43.75rem;
+    min-width: 18.75rem;
+}
+
+/* TITULO */
+.tituloPagina {
+    margin-bottom: 1.25rem;
+    text-align: center;
+    border-bottom: 0.188rem solid #ffa500;
+    padding-bottom: 0.938rem;
+    margin-bottom: 1.875rem;
+}
+.imgTitulo {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-bottom: -0.438rem;
+}
+.tituloPagina__h1 {
+    margin-bottom: 0.625rem;
+    padding: 0.313rem;
+    display: inline;
+    font-size: 2.188rem;
+}
+.tituloPagina__p {
+    text-align: center;
+    font-size: 1.188rem;
+    margin-top: 1.25rem;
+}
+
+/* FORMULARIO */
+.formulario__form-fieldset {
+    border: none;
+    padding: 0.625rem 0;
+    margin: 1.875rem 0;
+    border-top: 0.063rem dotted white;
+}
+.formulario__form-fieldset:first-child {
+    border-top: none;
+}
+label {
+    display: block;
+    margin: 0.313rem 0;
+    padding: 10px;
+}
+
+/* FORMULARIOS DE INGRESO DE LETRAS Y NÚMEROS */
+#fieldset1 input, #fieldset6 textarea{
+    margin: 0.625rem 0 0.625rem 0;
+    width: 98%;
+    min-height: 2rem;
+    border: none;
+    border-bottom: 0.188rem solid #ffa500;
+    background: rgba(255, 255, 255, 0.2);
+    outline: none;
+    color: #ffffff;
+    padding-left: 0.625rem;
+    text-align: justify;
+}
+.textareaDescripcion {
+    height: 7.5rem;
+    resize: none;
+}
+/* ESTO PARA SACARLE LAS FLECHITAS AL INPUT DE NUMBER (lo copié de CHATGPT, no se hacerlo ¯\_(ツ)_/¯) */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield; /* Firefox */
+}
+
+/* MODIFICAR LOS INPUTS DE SELECT Y DE FILE */
+#dropdown, #fotoPersonal {
+    margin-left: 0.625rem;
+    background-color: transparent;
+    color: white;
+}
+#dropdown option {
+    background-color: rgb(10, 10, 35);
+    color: white;
+}
+
+/* ULTIMO CHECKBOX */
+.terminos-y-condiciones__label {
+    text-align: left;
+}
+.terminos-y-condiciones__input-a {
+    color: #ffffff;
+}
+
+/* CAMBIA LAS MEDIDAS DE LOS INPUTS DE RADIO Y CHECKBOX */
+.inputTamaño {
+    width: 1rem;
+    height: 1rem;
+}
+
+/* MODIFICAR EL INPUT DE SUBMIT-ENVIAR */
+.formularioBoton__button {
+    background-color: #ffa500;
+    outline: none;
+    color: #ffffff;
+    width: 100%;
+    margin: 1.875rem 0;
+    min-height: 2rem;
+    border: none;
+    cursor: grab;
+}
+.formularioBoton__button:hover {
+    background-color: #fab536;
+}
+
+.formularioBoton__button:active {
+    background-color: #cf8600;
+}

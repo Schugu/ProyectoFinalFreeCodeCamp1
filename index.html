@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario (FCC)</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="https://images.vexels.com/media/users/3/151058/isolated/lists/809164d3d4fb42d19cfd4f3bcb1f9f3d-fogata-india.png"/>
+</head>
+<body>
+    <main>
+        <div class="tituloPagina">
+            <img src="https://images.vexels.com/media/users/3/151058/isolated/lists/809164d3d4fb42d19cfd4f3bcb1f9f3d-fogata-india.png" alt="fogata" class="imgTitulo">
+            <h1 class="tituloPagina__h1" id="title">Formulario para FreeCodeCamp</h1>
+            <img src="https://images.vexels.com/media/users/3/151058/isolated/lists/809164d3d4fb42d19cfd4f3bcb1f9f3d-fogata-india.png" alt="fogata" class="imgTitulo">
+        </div>
+        <p class="tituloPagina__p" id="description">Gracias por elegirnos. Por favor, escriba correctamente sus datos en cada campo.</p>
+
+
+        <div class="formulario">
+            <form class="formulario__form" id="survey-form">
+                <fieldset class="formulario__form-fieldset" id="fieldset1">
+                    <label for="name" id="name-label">Nombre<input type="text" id="name" name="name" required placeholder="Nombre completo"></label>
+                    <label for="email" id="email-label">E-mail<input type="email" id="email" name="email" required placeholder="Correo electrónico"></label>
+                    <label for="number" id="number-label">Edad<input type="number" id="number" name="age" required min="18" max="100" placeholder="Edad"></label>
+                </fieldset>
+                
+
+                <fieldset class="formulario__form-fieldset" id="fieldset2">
+                    <label for="dropdown">Estado Civil
+                        <select name="dropdown" id="dropdown">
+                            <option value="0">Elija una</option>
+                            <option value="1">Soltero/a</option>
+                            <option value="2">Casado/a</option>
+                            <option value="3">Viudo/a</option>
+                            <option value="4">Separado/a</option>
+                            <option value="5">Divorciado/a</option>
+                        </select>    
+                    </label>
+                </fieldset>    
+
+                <fieldset class="formulario__form-fieldset" id="fieldset3">
+                    <legend>Tipo de cuenta</legend>
+                    <label for="cuentaPersonal"><input id="cuentaPersonal" type="radio" name="tipoDeCuenta" checked value="personal" class="inputTamaño"/> Personal</label>
+                    <label for="cuentaDeEmpresa"><input id="cuentaDeEmpresa" type="radio" name="tipoDeCuenta" value="deEmpresa" class="inputTamaño"/> De empresa</label>
+                </fieldset>
+
+                <fieldset class="formulario__form-fieldset" id="fieldset4">
+                    <legend>¿Posees conocimientos de programación?</legend>
+                    <label for="preguntaSi"><input id="preguntaSi" type="radio" name="preguntaProg" checked value="si" class="inputTamaño"/> Si</label>
+                    <label for="preguntaNo"><input id="preguntaNo" type="radio" name="preguntaProg" value="no" class="inputTamaño"/> No</label>
+                </fieldset>
+                
+                <fieldset class="formulario__form-fieldset" id="fieldset5">
+                    <legend>¿Que tipo de lenguaje?</legend>
+                    <label for="inputHtml">
+                        <input id="inputHtml" type="checkbox" name="lenguajeProg" value="html" class="inputTamaño"/> HTML
+                    </label>
+                    <label for="inputCss">
+                        <input id="inputCss" type="checkbox" name="lenguajeProg" value="css" class="inputTamaño"/> CSS
+                    </label>
+                    <label for="inputJavascript">
+                        <input id="inputJavascript" type="checkbox" name="lenguajeProg" value="javascript" class="inputTamaño"/> JAVASCRIPT
+                    </label>
+                    <label for="inputOtro">
+                        <input id="inputOtro" type="checkbox" name="lenguajeProg" value="otro" class="inputTamaño"/> OTRO
+                    </label>
+                </fieldset>
+
+                <fieldset class="formulario__form-fieldset" id="fieldset5"></fieldset>
+                    <label for="fotoPersonal">Sube una foto tuya <input id="fotoPersonal" type="file" name="file" /></label>
+                </fieldset>
+
+                <fieldset class="formulario__form-fieldset" id="fieldset6">
+                    <label for="descripcion">Una breve descripción de su persona:
+                        <textarea class="textareaDescripcion" id="descripcion" name="descripcion" placeholder="Mido un metro ochenta y uno, tengo un sillón azul, en mi cuarto hay un baúl y me gusta el almendrado..."></textarea>
+                    </label>
+                </fieldset>
+
+                <label for="terminos-y-condiciones__input" class="terminos-y-condiciones__label">
+                    <input class="terminos-y-condiciones__input inputTamaño" id="terminos-y-condiciones__input" type="checkbox" required name="terminos-y-condiciones__input" value="entiendo"/> Entiendo que este formulario es para una prueba de <a class="terminos-y-condiciones__input-a" href="https://www.freecodecamp.org" target="_blank">FreeCodeCamp</a>.
+                </label>
+
+                <div class="formularioBoton" id="formularioBoton">
+                    <input type="submit" value="Enviar" id="submit" class="formularioBoton__button">
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
