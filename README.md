@@ -86,8 +86,9 @@ Sigue estos pasos para instalar y ejecutar el proyecto localmente:
     ```bash
     cd ProyectoFinalFreeCodeCamp1
     ```
+3. Una vez clonado el repositorio en tu máquina local, abre el archivo `index.html` en tu navegador web para ver el proyecto.
 
-3. ¡Listo! Ahora puedes comenzar a usar el proyecto.
+4. ¡Listo! Ahora puedes comenzar a usar el proyecto.
 
 ------------
 
