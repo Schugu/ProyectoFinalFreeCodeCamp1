@@ -4,7 +4,6 @@
 Objetivo: Construir una aplicación que sea funcionalmente similar a https://survey-form.freecodecamp.rocks. No copiar este proyecto de demostración.
 
 ### Historias de usuario:
-
 1. Debes tener un título de página en un elemento <code>h1</code> con un <code>id</code> de <code>title</code>.
 2. Debes tener una corta explicación en el elemento <code>p</code> con un <code>id</code> de <code>description</code>.
 3. Debes tener un elemento <code>form</code> con un <code>id</code> de <code>survey-form</code>.
@@ -21,3 +20,49 @@ Objetivo: Construir una aplicación que sea funcionalmente similar a https://sur
 14. Dentro del elemento <code>form</code>, puedes seleccionar varios campos en una serie de casillas de verificación, cada una debe tener un atributo <code>value</code>.
 15. Dentro del elemento <code>form</code>, se te presenta un <code>textarea</code> para comentarios adicionales.
 16. Dentro del elemento <code>form</code>, se te presenta un botón con un <code>id</code> de <code>submit</code> para enviar todas las entradas.
+
+#### Pruebas: 
+- 🧪 Debes tener un elemento <code>h1</code> con un <code>id</code> de <code>title</code>.
+- 🧪 Tu <code>#title</code> no debe estar vacío.
+- 🧪 Debes tener un elemento <code>p</code> con un <code>id</code> de <code>description</code>.
+- 🧪 Tu <code>#description</code> no debe estar vacío.
+- 🧪 Debes tener un elemento <code>form</code> con un <code>id</code> de <code>survey-form</code>.
+- 🧪 Debes tener un elemento <code>input</code> con un <code>id</code> de <code>name</code>.
+- 🧪 Tu <code>#name</code> debe tener un <code>type</code> de texto.
+- 🧪 Tu <code>#name</code> debe requerir una entrada.
+- 🧪 Tu <code>#name</code> debe ser descendiente de <code>#survey-form</code>.
+- 🧪 Debes tener un elemento <code>input</code> con un <code>id</code> de <code>email</code>.
+- 🧪 Tu <code>#email</code> debe tener un <code>type</code> de email.
+- 🧪 Tu <code>#email</code> debe requerir una entrada.
+- 🧪 Tu <code>#email</code> debe ser descendiente de <code>#survey-form</code>.
+- 🧪 Debes tener un elemento <code>input</code> con un <code>id</code> de <code>number</code>.
+- 🧪 Tu <code>#number</code> debe ser descendiente de <code>#survey-form</code>.
+- 🧪 Tu <code>#number</code> debe tener un <code>type</code> de number.
+- 🧪 Tu <code>#number</code> debe tener un atributo <code>min</code> con un valor numérico.
+- 🧪 Tu <code>#number</code> debe tener un atributo <code>max</code> con un valor numérico.
+- 🧪 Debes tener un elemento <code>label</code> con un <code>id</code> de <code>name-label</code>.
+- 🧪 Debes tener un elemento <code>label</code> con un <code>id</code> de <code>email-label</code>.
+- 🧪 Debes tener un elemento <code>label</code> con un <code>id</code> de <code>number-label</code>.
+- 🧪 Tu <code>#name-label</code> debe contener un texto que describa la entrada.
+- 🧪 Tu <code>#email-label</code> debe contener un texto que describa la entrada.
+- 🧪 Tu <code>#number-label</code> debe contener un texto que describa la entrada.
+- 🧪 Tu <code>#name-label</code> debe ser descendiente de <code>#survey-form</code>.
+- 🧪 Tu <code>#email-label</code> debe ser descendiente de <code>#survey-form</code>.
+- 🧪 Tu <code>#number-label</code> debe ser descendiente de <code>#survey-form</code>.
+- 🧪 Tu <code>#name</code> debe tener el atributo <code>placeholder</code> y un valor.
+- 🧪 Tu <code>#email</code> debe tener un atributo <code>placeholder</code> y un valor.
+- 🧪 Tu <code>#number</code> debe tener un atributo <code>placeholder</code> y un valor.
+- 🧪 Debes tener un campo <code>select</code> con un <code>id</code> de <code>dropdown</code>.
+- 🧪 Tu <code>#dropdown</code> debe tener al menos dos elementos <code>option</code> seleccionables (no deshabilitados).
+- 🧪 Tu <code>#dropdown</code> debe ser descendiente de <code>#survey-form</code>.
+- 🧪 Debes tener al menos dos elementos <code>input</code> con un <code>type</code> de radio (botones de radio).
+- 🧪 Debes tener al menos dos botones de radio que sean descendientes de <code>#survey-form</code>.
+- 🧪 Todos tus botones de radio deben tener un atributo <code>value</code> y un valor.
+- 🧪 Todos tus botones de radio deben tener un atributo <code>name</code> y un valor.
+- 🧪 Cada grupo de botón de radio debe tener al menos 2 botones de radio.
+- 🧪 Debes tener al menos dos elementos <code>input</code> con un <code>type</code> de checkbox (casillas de verificación) que sean descendientes de <code>#survey-form</code>.
+- 🧪 Todos tus casillas de verificación dentro de <code>#survey-form</code> deben tener un atributo <code>value</code> y un valor.
+- 🧪 Debes tener al menos un elemento de <code>textarea</code> que sea descendiente de <code>#survey-form</code>.
+- 🧪 Debes tener un elemento <code>input</code> o <code>button</code> con un <code>id</code> de <code>submit</code>.
+- 🧪 Tu <code>#submit</code> debe tener un <code>type</code> de submit.
+- 🧪 Tu <code>#submit</code> debe ser descendiente de <code>#survey-form</code>.
