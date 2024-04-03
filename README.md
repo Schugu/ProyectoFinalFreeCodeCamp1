@@ -68,3 +68,8 @@ Objetivo: Construir una aplicación que sea funcionalmente similar a https://sur
 - 🧪 Debes tener un elemento <code>input</code> o <code>button</code> con un <code>id</code> de <code>submit</code>.
 - 🧪 Tu <code>#submit</code> debe tener un <code>type</code> de submit.
 - 🧪 Tu <code>#submit</code> debe ser descendiente de <code>#survey-form</code>.
+
+### Capturas de pantalla: 
+<img src='Media/CapturaDeLaPáginaFCC1.png' alt='capturaDePantalla1'>
+<img src='Media/CapturaDeLaPáginaFCC1.2.png' alt='capturaDePantalla2'>
+<img src='Media/CapturaDeLaPáginaFCC1.3.png' alt='capturaDePantalla3'>
