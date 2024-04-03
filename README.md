@@ -21,7 +21,7 @@ Objetivo: Construir una aplicación que sea funcionalmente similar a https://sur
 15. Dentro del elemento <code>form</code>, se te presenta un <code>textarea</code> para comentarios adicionales.
 16. Dentro del elemento <code>form</code>, se te presenta un botón con un <code>id</code> de <code>submit</code> para enviar todas las entradas.
 
-#### Pruebas: 
+### Pruebas: 
 - 🧪 Debes tener un elemento <code>h1</code> con un <code>id</code> de <code>title</code>.
 - 🧪 Tu <code>#title</code> no debe estar vacío.
 - 🧪 Debes tener un elemento <code>p</code> con un <code>id</code> de <code>description</code>.
