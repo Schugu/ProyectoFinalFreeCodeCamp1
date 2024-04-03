@@ -75,3 +75,20 @@ Objetivo: Construir una aplicación que sea funcionalmente similar a https://sur
 <img src='media/CapturaDePantalla1.png' alt='CapturaDePantalla1'>
 <img src='media/CapturaDePantalla2.png' alt='CapturaDePantalla2'>
 
+------------
+
+### Instalación
+
+Sigue estos pasos para instalar y ejecutar el proyecto localmente:
+
+1. Clona este repositorio en tu máquina local utilizando Git:
+
+    ```bash
+    git clone https://github.com/Schugu/ProyectoFinalFreeCodeCamp1.git
+    ```
+
+2. Navega al directorio del proyecto:
+
+    ```bash
+    cd ProyectoFinalFreeCodeCamp1
+    ```
