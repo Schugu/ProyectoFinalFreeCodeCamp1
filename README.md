@@ -1,11 +1,11 @@
-<h1 align='center'>Proyecto final N°1 del curso Responsive Web Design de FreeCodeCamp</h1>
+<h1 align='center'>🌟 Proyecto final N°1 del curso Responsive Web Design de FreeCodeCamp 🌟</h1>
 
-> Este proyecto es 1/5 para la certificación del curso.
+> Este proyecto es 1/5 para la certificación del curso. ✨
 
-## Página formulario:
-Objetivo: Construir una aplicación que sea funcionalmente similar a https://survey-form.freecodecamp.rocks. No copiar este proyecto de demostración.
+## Página formulario 📬
+🎯 Objetivo: Construir una aplicación que sea funcionalmente similar a https://survey-form.freecodecamp.rocks. No copiar este proyecto de demostración.
 
-### Historias de usuario (Descripción): 
+### Historias de usuario (Descripción) 📋 
 1. Debes tener un título de página en un elemento <code>h1</code> con un <code>id</code> de <code>title</code>.
 2. Debes tener una corta explicación en el elemento <code>p</code> con un <code>id</code> de <code>description</code>.
 3. Debes tener un elemento <code>form</code> con un <code>id</code> de <code>survey-form</code>.
@@ -23,7 +23,7 @@ Objetivo: Construir una aplicación que sea funcionalmente similar a https://sur
 15. Dentro del elemento <code>form</code>, se te presenta un <code>textarea</code> para comentarios adicionales.
 16. Dentro del elemento <code>form</code>, se te presenta un botón con un <code>id</code> de <code>submit</code> para enviar todas las entradas.
 
-### Pruebas (Pruebas Técnicas a pasar): 
+### Pruebas (Pruebas Técnicas a pasar) ✔️🔬 
 - 🧪 Debes tener un elemento <code>h1</code> con un <code>id</code> de <code>title</code>.
 - 🧪 Tu <code>#title</code> no debe estar vacío.
 - 🧪 Debes tener un elemento <code>p</code> con un <code>id</code> de <code>description</code>.
@@ -71,7 +71,7 @@ Objetivo: Construir una aplicación que sea funcionalmente similar a https://sur
   
 ------------
 
-### Instalación
+### Instalación 🛠️💻
 
 Sigue estos pasos para clonar y ejecutar el proyecto localmente:
 
@@ -94,7 +94,7 @@ Sigue estos pasos para clonar y ejecutar el proyecto localmente:
 
 ------------
 
-### Capturas de pantalla
+### Capturas de pantalla 📸
 <img src='media/CapturaDePantalla1.png' alt='CapturaDePantalla1'>
 <img src='media/CapturaDePantalla2.png' alt='CapturaDePantalla2'>
 
