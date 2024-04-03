@@ -71,12 +71,6 @@ Objetivo: Construir una aplicación que sea funcionalmente similar a https://sur
   
 ------------
 
-### Capturas de pantalla: 
-<img src='media/CapturaDePantalla1.png' alt='CapturaDePantalla1'>
-<img src='media/CapturaDePantalla2.png' alt='CapturaDePantalla2'>
-
-------------
-
 ### Instalación
 
 Sigue estos pasos para instalar y ejecutar el proyecto localmente:
@@ -92,3 +86,12 @@ Sigue estos pasos para instalar y ejecutar el proyecto localmente:
     ```bash
     cd ProyectoFinalFreeCodeCamp1
     ```
+
+3. ¡Listo! Ahora puedes comenzar a usar el proyecto.
+
+------------
+
+### Capturas de pantalla
+<img src='media/CapturaDePantalla1.png' alt='CapturaDePantalla1'>
+<img src='media/CapturaDePantalla2.png' alt='CapturaDePantalla2'>
+
