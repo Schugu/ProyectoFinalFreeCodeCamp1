@@ -1,11 +1,9 @@
 <h1 align='center'>Proyecto final N°1 del curso Responsive Web Design de FreeCodeCamp</h1>
 
-------------
-
 ## Página formulario:
 Objetivo: Construir una aplicación que sea funcionalmente similar a https://survey-form.freecodecamp.rocks. No copiar este proyecto de demostración.
 
-#### Historias de usuario:
+### Historias de usuario:
 
 1. Debes tener un título de página en un elemento <code>h1</code> con un <code>id</code> de <code>title</code>.
 2. Debes tener una corta explicación en el elemento <code>p</code> con un <code>id</code> de <code>description</code>.
