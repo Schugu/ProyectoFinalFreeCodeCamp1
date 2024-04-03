@@ -70,4 +70,6 @@ Objetivo: Construir una aplicación que sea funcionalmente similar a https://sur
 - 🧪 Tu <code>#submit</code> debe ser descendiente de <code>#survey-form</code>.
 
 ### Capturas de pantalla: 
-<img src='Media/CapturaDeLaPáginaFCC1.png' alt='capturaDePantalla1' width='30%'>
+<img src='Media/CapturaDeLaPáginaFCC1.png' alt='capturaDePantalla1'>
+<img src='Media/CapturaDeLaPáginaFCC1.2.png' alt='capturaDePantalla2'>
+<img src='Media/CapturaDeLaPáginaFCC1.3.png' alt='capturaDePantalla3'>
