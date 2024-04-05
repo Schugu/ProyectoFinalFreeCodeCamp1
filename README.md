@@ -1,6 +1,7 @@
 <h1 align='center'>🌟 Proyecto final N°1 del curso Responsive Web Design de FreeCodeCamp 🌟</h1>
 
-> Este proyecto es 1/5 para la certificación del curso. ✨
+> Este proyecto es 1/5 para la certificación del curso. ✨ <br>
+> Practica de HTML, CSS y JavaScript. ✨
 
 ## Página formulario 📬
 🎯 Objetivo: Construir una aplicación que sea funcionalmente similar a https://survey-form.freecodecamp.rocks. No copiar este proyecto de demostración.
